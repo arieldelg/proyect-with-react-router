@@ -58,12 +58,12 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route element={<LayoutPage error={error} setNextPage={setNextPage} isLoading={isLoading} search={search} setSearch={setSearch}/>}>
-          <Route path='/react-router-dom-V6.4' element={<HomePage dayTrendingMovie={dayTrendingMovie} genreList={genreList} isLoading={isLoading} saveMovietoFavorites={saveMovietoFavorites} items={items} deleteMovieFromFavorites={deleteMovieFromFavorites}/>}/>
-          <Route path='/react-router-dom-V6.4/login' element={<LogIn/>} />
-          <Route path='/react-router-dom-V6.4/about' element={<AboutPage/>}/>
-          <Route path='/react-router-dom-V6.4/profile' element={<ProfilePage/>}/>
+          <Route path='/proyect-with-react-router' element={<HomePage dayTrendingMovie={dayTrendingMovie} genreList={genreList} isLoading={isLoading} saveMovietoFavorites={saveMovietoFavorites} items={items} deleteMovieFromFavorites={deleteMovieFromFavorites}/>}/>
+          <Route path='/proyect-with-react-router/login' element={<LogIn/>} />
+          <Route path='/proyect-with-react-router/about' element={<AboutPage/>}/>
+          <Route path='/proyect-with-react-router/profile' element={<ProfilePage/>}/>
           <Route 
-            path='/react-router-dom-V6.4/tendencias/' 
+            path='/proyect-with-react-router/tendencias/' 
             element={<RatingPage 
               saveMovietoFavorites={saveMovietoFavorites} 
               items={items} 
@@ -71,7 +71,7 @@ const App = () => {
             />}
           />
           <Route 
-            path='/react-router-dom-V6.4/:name/:id' 
+            path='/proyect-with-react-router/:name/:id' 
             element={<CategoryMoviePage 
               saveMovietoFavorites={saveMovietoFavorites} 
               items={items} 
@@ -79,7 +79,7 @@ const App = () => {
             />}
           />
           <Route 
-            path='/react-router-dom-V6.4/movie/:id' 
+            path='/proyect-with-react-router/movie/:id' 
             element={<MovieDetail
               saveMovietoFavorites={saveMovietoFavorites} 
               items={items} 
@@ -87,7 +87,7 @@ const App = () => {
             />}
           />
           <Route 
-            path='/react-router-dom-V6.4/search/:name' 
+            path='/proyect-with-react-router/search/:name' 
             element={<SearchPage
               saveMovietoFavorites={saveMovietoFavorites} 
               items={items} 

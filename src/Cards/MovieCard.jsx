@@ -34,7 +34,7 @@ const MovieCard = React.forwardRef(({ data, saveMovietoFavorites, items, deleteM
                 src={image()} 
                 alt={data.original_title} 
                 className="w-[220px] rounded-xl inline-block p-2 cursor-pointer"
-                onClick={() => navigate(`/react-router-dom-V6.4/movie/${data.id}`)}
+                onClick={() => navigate(`/proyect-with-react-router/movie/${data.id}`)}
                 aria-label={`The movie name is ${data.original_title}`}
                 width={220}
                 height={322}
@@ -52,7 +52,7 @@ const MovieCard = React.forwardRef(({ data, saveMovietoFavorites, items, deleteM
                 src={image()} 
                 alt={data.original_title} 
                 className="w-[220px] rounded-xl inline-block p-2 cursor-pointer"
-                onClick={() => navigate(`/react-router-dom-V6.4/movie/${data.id}`)}
+                onClick={() => navigate(`/proyect-with-react-router/movie/${data.id}`)}
                 aria-label={`The movie name is ${data.original_title}`}
                 width={220}
                 height={322}

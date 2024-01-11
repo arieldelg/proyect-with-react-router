@@ -13,7 +13,7 @@ const NavBar = ({ setNextPage, search, setSearch, requestToken }) => {
         <nav 
         className='flex w-screen h-10 bg-white justify-between px-2 items-center min-w-min'
         >
-            <NavLink to={'/react-router-dom-V6.4'} onClick={() => setNextPage(1)}>
+            <NavLink to={'/proyect-with-react-router'} onClick={() => setNextPage(1)}>
                 <FilmIcon className='w-10 h-10'/>
             </NavLink>
             <form onSubmit={toSearch} className='w-4/5'>
@@ -27,9 +27,9 @@ const NavBar = ({ setNextPage, search, setSearch, requestToken }) => {
                 />
             </form>
             <div className='w-40 flex justify-evenly'>
-              <NavLink to={'/react-router-dom-V6.4/about'}>About</NavLink>
-              <NavLink to={'/react-router-dom-V6.4/profile'}>Profile</NavLink>
-              <NavLink to={'/react-router-dom-V6.4/login'}>Login</NavLink>
+              <NavLink to={'/proyect-with-react-router/about'}>About</NavLink>
+              <NavLink to={'/proyect-with-react-router/profile'}>Profile</NavLink>
+              <NavLink to={'/proyect-with-react-router/login'}>Login</NavLink>
             </div>
         </nav>
     )

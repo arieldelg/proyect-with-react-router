@@ -24,7 +24,7 @@ const CategoryCard = ({ data }) => {
         10749: 'bg-purple-200',
     }
     return (
-        <li onClick={() => navigate(`/react-router-dom-V6.4/${data.name}/${data.id}`)} 
+        <li onClick={() => navigate(`/proyect-with-react-router/${data.name}/${data.id}`)} 
             className='cursor-pointer list-none no-underline flex items-center gap-2 py-2'
             >
             <p className={`pr-4 no-underline ${bgColor[data.id]} w-6 h-6 rounded-lg`}></p>
