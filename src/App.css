@@ -1,0 +1,27 @@
+
+body {
+  background-color: gray;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none
+}
+
+#slider::-webkit-scrollbar {
+  display: none;
+}
+
+.altura {
+  height: calc(max-content - 40px);
+}
+
+#sliderMovies::-webkit-scrollbar {
+  display: none;
+}
+
+#sliderfav::-webkit-scrollbar {
+  display: none;
+}
